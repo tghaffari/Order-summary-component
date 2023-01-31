@@ -1,0 +1,104 @@
+body {
+  font-size: 16px;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225deg 100% 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card {
+  background-color: hsl(225deg 100% 98%);
+  border-radius: 12px;
+  margin: 3rem 1rem 1rem;
+}
+
+.dancing-image {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.card-padding {
+  padding: 0 1.5rem;
+}
+
+.heading {
+  color: hsl(223deg 47% 23%);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.summary {
+  color: hsl(224deg 23% 55%);
+  text-align: center;
+  line-height: 25px;
+}
+
+.pale-background {
+  background-color: rgb(114 128 167/ 5%);
+  border-radius: 12px;
+  padding: 0 1rem;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-holder {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.plan {
+  color: hsl(223deg 47% 23%);
+  font-weight: 700;
+  padding-left: 1rem;
+}
+
+.price {
+  color: hsl(224deg 23% 55%);
+  margin-top: 0.2rem;
+  display: block;
+  font-weight: 500;
+}
+
+.change {
+  color: hsl(245deg 75% 52%);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.payment-button {
+  width: 100%;
+  background-color: hsl(245deg 75% 52%);
+  color: hsl(225deg 100% 98%);
+  font-weight: 900;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem 0;
+  margin: 1.5rem 0 0;
+  box-shadow: 0 25px 30px -4px rgb(56 41 224/ 20%);
+  font-size: 16px;
+}
+
+.cancel {
+  color: hsl(224deg 23% 55%);
+  text-align: center;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg 45% 44%);
+}
