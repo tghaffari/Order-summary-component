@@ -15,7 +15,7 @@
   flex-basis: auto;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
   .container {
     max-width: 500px;
   }
