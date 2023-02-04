@@ -2,6 +2,7 @@ body {
   font-size: 16px;
   background-image: url("../images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
+  background-size: 100% 180px;
   background-color: hsl(225deg 100% 94%);
   font-family: "Red Hat Display", sans-serif;
 }
@@ -113,9 +114,10 @@ body {
   color: hsl(223deg 47% 23%);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   body {
-    background-image: url("images/pattern-background-desktop.svg");
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-size: 100% 300px;
   }
 
   .card-padding {
